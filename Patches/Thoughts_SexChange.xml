@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="male2futa"]/nullifyingPrecepts</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="male2futa"]</xpath>
+      <value>
+        <nullifyingPrecepts>
+          <li>Futanaris_Revered</li>
+        </nullifyingPrecepts>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="male2futa"]/nullifyingPrecepts</xpath>
+      <value>
+        <li>Futanaris_Revered</li>
+      </value>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThoughtDef[defName="female2futa"]/nullifyingPrecepts</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="female2futa"]</xpath>
+      <value>
+        <nullifyingPrecepts>
+          <li>Futanaris_Revered</li>
+        </nullifyingPrecepts>
+      </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThoughtDef[defName="female2futa"]/nullifyingPrecepts</xpath>
+      <value>
+        <li>Futanaris_Revered</li>
+      </value>
+    </match>
+  </Operation>
+  
+</Patch>
+
+
+

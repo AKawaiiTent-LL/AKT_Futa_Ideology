@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <StyleCategoryDef>
+    <defName>Futa</defName>
+    <label>futa</label>
+    <iconPath>UI/StyleCategories/Futa</iconPath>
+    <thingDefStyles>
+	  <li>
+        <thingDef>SculptureSmall</thingDef>
+        <styleDef>Futa_SculptureSmall</styleDef>
+      </li>	
+      <li>
+        <thingDef>SculptureLarge</thingDef>
+        <styleDef>Futa_SculptureLarge</styleDef>
+      </li>
+      <li>
+        <thingDef>SculptureGrand</thingDef>
+        <styleDef>Futa_SculptureGrand</styleDef>
+      </li>
+      <li>
+        <thingDef>Ideogram</thingDef>
+        <styleDef>Futa_IdeogramA</styleDef>
+      </li>
+	  <li>
+        <thingDef>Ideogram</thingDef>
+        <styleDef>Futa_IdeogramB</styleDef>
+      </li>
+	  <li>
+        <thingDef>Ideogram</thingDef>
+        <styleDef>Futa_IdeogramC</styleDef>
+      </li>
+	  <li>
+        <thingDef>Ideogram</thingDef>
+        <styleDef>Futa_IdeogramD</styleDef>
+      </li>
+	    <li>
+        <thingDef>Column</thingDef>
+        <styleDef>Futa_Column</styleDef>
+      </li>
+	  
+    </thingDefStyles>
+    
+  </StyleCategoryDef>
+
+</Defs>
