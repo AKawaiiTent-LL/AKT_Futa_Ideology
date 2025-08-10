@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>AKT_Ideology</name>
+	<author>AKawaiiTent</author>
+	<url></url>
+  <supportedVersions>
+	<li>1.5</li>
+	<li>1.6</li>
+  </supportedVersions>
+	<packageId>AKT.Ideology</packageId>
+	<description>
+	Version: 1.6 (tested in 1.5 as well)
+	Adds futanari supremeacy ideology. 
+	Adds futa theme which replaces statues and columns
+	Adds futa ideograms
+	Adds social buffs and mood buffs based on futanari gene from RJW genes.
+	
+	</description>
+	<modDependencies>
+		<li>
+      <packageId>rim.job.world</packageId>
+      <displayName>RimJobWorld</displayName>
+      <steamWorkshopUrl>https://www.loverslab.com/topic/110270-mod-rimjobworld</steamWorkshopUrl>
+		</li>
+		
+		<!--<li>
+      <packageId>Vegapnk.rjw.genes</packageId>
+      <displayName>RJW Genes</displayName>
+      <steamWorkshopUrl>https://github.com/vegapnk/RJW-Genes</steamWorkshopUrl>
+		</li>
+		
+	    <li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+	    </li>
+		-->
+		<li>
+			<packageId>Ludeon.RimWorld.Ideology</packageId>
+			<displayName>Ideology</displayName>
+		</li>
+    </modDependencies>
+	
+	
+</ModMetaData>

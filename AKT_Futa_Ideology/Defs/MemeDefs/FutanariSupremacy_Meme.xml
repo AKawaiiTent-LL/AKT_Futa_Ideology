@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- MEMES -->
+<MemeDef>
+    <defName>FutaSupremacy</defName>
+    <label>futa supremacy</label>
+    <description>Futanari are the superior gender and should rule.</description>
+    <iconPath>UI/Memes/SupremacyFemale</iconPath>
+    <impact>1</impact>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->futa</li>
+        <li>memeGod->Mother</li>
+        <li>memeLeaderNoun->queen</li>
+		<li>memeLeaderAdjective->alpha</li>
+		<li>memeMoralist->futa believer</li>
+      </rulesStrings>
+    </generalRules>
+    <symbolPacks>
+      <li>
+        <ideoName>Futa</ideoName>
+        <theme>futanari</theme>
+        <adjective>fertilist</adjective>
+        <member>fertilist</member>
+      </li>
+    </symbolPacks>
+	<descriptionMaker>
+	  <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_FutaSupremacy)        ->While [deity0_name] gave strength to men, and beauty woman, [deity0_name] had both. A rare few were given both and blessed in her image.</li>
+          <li>episode(uses=1,tag=meme_FutaSupremacy)  ->[deity0_name] said to all, "Those of you made in my image shall rule upon the rest, as superiors in nature."</li>
+		  <!-- theist founder -->
+		  <li>intro(tag=meme_FutaSupremacy)        ->On the [place_summary] [place_name], the [memberNamePlural] found the image of [deity0_name] and awed them.</li>
+          <li>conflict(uses=1,tag=meme_FutaSupremacy)  ->A craven [foeLeader] envied the strength of the futanari, and [foeLeader_possessive] [foeSoldiers] created lies and tarnished the image. Branding [deity0_name]'s blessed as freaks."</li>
+		  <li>founderJoin(tag=meme_FutaSupremacy)        ->[founderName] knew of their superiority, and made it their mission to improve the tarnished image of the futanari.</li>
+          <li>victory(uses=1,tag=meme_FutaSupremacy)  ->[founderName]'s power was so awe inspiring, that people began to once again acknowledged the truth, that the futanari were above all other human forms."</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_FutaSupremacy)           ->In a world of weak, simpering men and feeble woman, [founderName] was born blessed by [deity0_name]. [founderName] knew they were special, and sought the power and influence that was their birthright. </li>
+          <li>story(uses=1,tag=meme_FutaSupremacy)    ->The non believers wheedled and whined, so [founderName] dominated them and forced them to submit.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_FutaSupremacy)         ->Men are feeble and woman craven. It is up to the futanari among us to guide them on the right path</li>
+          <li>lesson(tag=meme_FutaSupremacy)              ->futanari are the only ones with the wisdom and strength to rule</li>
+          <li>lessonReinforcement(tag=meme_FutaSupremacy) ->A man tried to argue with a futa. Can you believe it? He was swiftly emasculated and shown his proper place.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_FutaSupremacy)    ->Humanity is the father of the archotechs, but the strength of the futanari exceeds that of the father.</li>
+          <li>archistFact(tag=meme_FutaSupremacy)     ->The archotechs are paternal, maternal, and protect humanity, although non futnaris do not understand how they achieved both.</li>
+          <li>archistProphecy(tag=meme_FutaSupremacy) ->[inTheEnd], the archotechs will finally unlock the strength of men and beauty of woman, ascending all to the perfect forms.</li>
+          <!-- animist -->
+          <li>animistFact(tag=meme_FutaSupremacy)     ->The most powerful spirits are those of futa, and spirits of futa will be restless unless futa rule.</li>
+          <li>animistProphecy(tag=meme_FutaSupremacy) ->[itIsSaid] that a powerful spirit of destruction will seek to end the universe, but that a futa will wield the spirit of the [relic0_name] and destroy the destroyer.</li>
+        </rulesStrings>
+      </rules>
+	</descriptionMaker>
+	<thingStyleCategories>
+      <li>
+        <category>Futa</category>
+        <priority>1</priority>
+      </li>
+    </thingStyleCategories>
+	
+  </MemeDef>
+
+</Defs>
